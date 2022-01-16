@@ -1,0 +1,13 @@
+.container {
+  margin: 5vh 10vh;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tittle {
+  font-size: x-large;
+}

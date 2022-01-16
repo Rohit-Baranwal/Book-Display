@@ -1,0 +1,43 @@
+.poster {
+    height: 300px;
+    width : 200px;
+
+}
+
+img {
+   height: 85%;
+   width : 100%;
+}
+
+.poster {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.poster:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .poster {
+    width: 46%;
+  }
+}
+
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
