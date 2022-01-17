@@ -6,7 +6,7 @@ import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import axios from 'axios';
 import { img_500 } from '../config/config';
-import { FormHelperText } from "@material-ui/core";
+// import { FormHelperText } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -48,9 +48,11 @@ export default function ContentModal({children , cover , id}) {
 
   useEffect(() => {
      fetchData();
+     // eslint-disable-next-line
   }, [])
 
   return (
+    <>
     <div>
       <button type="button" className="poster" onClick={handleOpen}>
         {children}
@@ -92,5 +94,6 @@ export default function ContentModal({children , cover , id}) {
         </Fade>
       </Modal>
     </div>
+    </>
   )
 }
