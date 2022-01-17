@@ -1,4 +1,3 @@
-
 .model {
   height: 450px;
   width: 350px;
@@ -11,7 +10,7 @@
 }
 
 .models {
-    display: flex;
+  display: flex;
 }
 
 .ContentModal {
@@ -20,10 +19,9 @@
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  overflow-y: scroll;
-  scrollbar-width: none;
+  /* overflow-y: scroll; */
+  /* scrollbar-width: none; */
 }
-
 
 .ContentModal__about {
   padding: 10px;
@@ -36,8 +34,8 @@
 }
 
 .ContentModal__title {
-  height: 12%;
-  font-size: 5vw;
+  height: 10%;
+  font-size: 2.3vw;
 }
 
 .ContentModal__description {
@@ -50,4 +48,3 @@
   box-shadow: inset 0 0 5px #000000;
   text-align: justify;
 }
-
