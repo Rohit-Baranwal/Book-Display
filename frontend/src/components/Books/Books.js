@@ -25,6 +25,7 @@ const Books = (props) => {
 
     useEffect(() => {
        fetchBooks();
+       // eslint-disable-next-line
     }, [])
 
     return (
